@@ -61,3 +61,12 @@ h3 {
 .google-play {
     margin-left: 15px;
 }
+.roast-container {
+  margin-top: 25px;
+}
+.roast img {
+    background-color: tomato;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+}
