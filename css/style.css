@@ -3,6 +3,7 @@ html, body {
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -42,6 +43,13 @@ h3 {
     font-size: 20px;
     padding-bottom: 20px;
 }
+ul {
+    list-style: none;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+}
 .container {
     top: 0;
     left: 0;
@@ -75,6 +83,11 @@ h3 {
     border-radius: 5px;
     height: 40px;
     padding: 10px;
+}
+
+.press {
+    margin: auto;
+    text-align: center;
 }
 
 .video-container {
